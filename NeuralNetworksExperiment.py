@@ -1,7 +1,7 @@
 import numpy as np
 
 def main():
-
+'''
     inputs = [1, 2, 3, 2.5]
     weights = [[0.2, 0.8, -0.5, 1.0],
                [0.5, -0.91, 0.26, -0.5],
@@ -29,7 +29,7 @@ def main():
         neuron_output += neuron_bias
         layer_outputs.append(neuron_output)
     print(layer_outputs)
-'''
+
 
 if __name__ == '__main__':
     main()
